@@ -61,6 +61,8 @@ static NSString *secendVedioCellReuseID = @"secendVedioCellReuseID";
     [self loadMainListData];
     
      NSArray *array = [[NSArray alloc] init];
+    
+    NSLog(@"%@",array);
 }
 
 - (void)setNavigation{
