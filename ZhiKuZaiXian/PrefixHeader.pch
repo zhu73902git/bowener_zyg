@@ -1,0 +1,64 @@
+//
+//  PrefixHeader.pch
+//  ZhiKuZaiXian
+//
+//  Created by zhujp on 2017/6/5.
+//  Copyright © 2017年 zhuyonggang. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+
+
+#import <AFNetworking/AFNetworking.h>
+#import <RDVTabBarController/RDVTabBarController.h>
+#import <RDVTabBarController/RDVTabBar.h>
+#import <RDVTabBarController/RDVTabBarItem.h>
+
+#import <Masonry/Masonry.h>
+#import <MJRefresh/MJRefresh.h>
+
+
+
+#import "XLVideoPlayer.h"   // cell 视频播放器
+#import "XLSlider.h"
+#import "VideoDetailViewController.h"
+
+
+
+#import "Config.h"
+#import "API.h"
+#import "LoadingView.h"
+#import "VTGeneralTool.h"
+#import "NSObject+Property.h"
+#import "UILabel+ZYGLabel.h"
+#import "ACMacros.h"
+#import "NSString+StringSize.h"
+#import "UILabel+ChangeLineSpaceAndWordSpace.h"
+
+
+
+
+#import "AppDelegate+LifeCercle.h"
+#import "AppDelegate+Server.h"
+#import "AppDelegate+RootViewController.h"
+
+
+///
+#import "MainViewController.h"
+#import "ZhiKuViewController.h"
+#import "QuestionViewController.h"
+#import "MyClassViewController.h"
+#import "FindViewController.h"
+#import "BaseNavigationController.h"
+#import "ZhuanJiaDetailViewController.h"
+
+
+
+
+#endif /* PrefixHeader_pch */

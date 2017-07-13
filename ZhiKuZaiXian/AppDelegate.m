@@ -17,6 +17,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    
+    [self setMainWindow];
+    [self setRootViewController];
+    
+    [NSThread sleepForTimeInterval:1.5];//设置启动页面时间
+    
+    
+    
     return YES;
 }
 
